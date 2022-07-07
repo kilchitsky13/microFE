@@ -8,7 +8,7 @@ export const environment = {
       exposedModule: ['DashboardModule'],
     },
     registerPage : {
-      remoteEntry: 'http://localhost:4201/remoteEntry.js',
+      remoteEntry: 'https://ashy-river-0d4b2af0f.1.azurestaticapps.net/remoteEntry.js',
       remoteName: 'register',
       exposedModule: ['RegisterPageModule'],
     },
