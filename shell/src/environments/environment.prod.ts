@@ -13,7 +13,7 @@ export const environment = {
       exposedModule: ['RegisterPageModule'],
     },
     layout: {
-      remoteEntry: 'http://localhost:4205/remoteEntry.js',
+      remoteEntry: 'https://polite-smoke-021becf0f.1.azurestaticapps.net/remoteEntry.js',
       remoteName: 'layout',
       exposedModule: ['Header', 'Footer', 'LayoutModule'],
     }
