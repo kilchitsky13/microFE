@@ -25,5 +25,14 @@ export const MICROFRONTEND_ROUTES: Microfrontend[] = [
     routePath: 'signup',
     ngModuleName: 'RegisterPageModule',
     canActivate: [UnloggedOnlyGuard]
+  },
+  {
+    ...environment.microfrontends.products,
+    exposedModule: environment.microfrontends.products.exposedModule[0],
+
+    displayName: 'Products',
+    routePath: 'products',
+    ngModuleName: 'ProductsModule',
+    //canActivate: [UnloggedOnlyGuard]
   }
 ]

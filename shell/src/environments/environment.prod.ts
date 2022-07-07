@@ -16,6 +16,11 @@ export const environment = {
       remoteEntry: 'https://polite-smoke-021becf0f.1.azurestaticapps.net/remoteEntry.js',
       remoteName: 'layout',
       exposedModule: ['Header', 'Footer', 'LayoutModule'],
+    },
+    products: {
+      remoteEntry: 'https://witty-meadow-0a888a10f.1.azurestaticapps.net/remoteEntry.js',
+      remoteName: 'products',
+      exposedModule: ['ProductsModule'],      
     }
   }
 };
