@@ -3,7 +3,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 
 module.exports = {
   output: {
-    publicPath: "http://localhost:4204/",
+    publicPath: "https://polite-desert-0b03d470f.1.azurestaticapps.net/",
     uniqueName: "dashboard",
   },
   optimization: {
