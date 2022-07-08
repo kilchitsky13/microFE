@@ -4,7 +4,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 
 module.exports = {
   output: {
-    publicPath: "https://ashy-river-0d4b2af0f.1.azurestaticapps.net/",
+    publicPath: "https://proud-flower-04e7b8a0f.1.azurestaticapps.net/",
     uniqueName: "register",
   },
   optimization: {

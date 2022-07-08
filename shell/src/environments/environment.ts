@@ -12,7 +12,7 @@ export const environment = {
       exposedModule: ['DashboardModule'],
     },
     registerPage : {
-      remoteEntry: 'https://ashy-river-0d4b2af0f.1.azurestaticapps.net/remoteEntry.js',
+      remoteEntry: 'https://proud-flower-04e7b8a0f.1.azurestaticapps.net/remoteEntry.js',
       remoteName: 'register',
       exposedModule: ['RegisterPageModule'],
     },
