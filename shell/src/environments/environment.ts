@@ -7,7 +7,7 @@ export const environment = {
 
   microfrontends: {
     dashboard: {
-      remoteEntry: 'https://polite-desert-0b03d470f.1.azurestaticapps.net/remoteEntry.js',
+      remoteEntry: 'https://nice-grass-0b6c62e0f.1.azurestaticapps.net/remoteEntry.js',
       remoteName: 'dashboard',
       exposedModule: ['DashboardModule'],
     },
