@@ -13,7 +13,7 @@ export const environment = {
       exposedModule: ['RegisterPageModule'],
     },
     layout: {
-      remoteEntry: 'https://polite-smoke-021becf0f.1.azurestaticapps.net/remoteEntry.js',
+      remoteEntry: 'https://https://nice-beach-0c89b170f.1.azurestaticapps.net/remoteEntry.js',
       remoteName: 'layout',
       exposedModule: ['Header', 'Footer', 'LayoutModule'],
     },
